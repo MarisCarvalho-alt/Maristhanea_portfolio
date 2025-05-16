@@ -1,0 +1,56 @@
+* {
+    font-family: helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+body, html {
+    background-color: #000;
+}
+
+#div-header {
+   display:flex;
+   justify-content:center;
+   gap:10px;
+   width: 100%;
+   margin: 20px 0px;
+}
+
+.header-option {
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border: solid 1px #000;
+    border-radius: 20px;
+    width: 100px;
+    color: #000;
+    text-decoration: none;
+}
+
+#sobre, 
+#formacao, 
+#cv, 
+#contato {
+    margin: 40px 0px;
+    background: #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    color: #fff;
+}
