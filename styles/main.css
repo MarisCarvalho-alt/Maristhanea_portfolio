@@ -17,13 +17,15 @@ html {
     padding-top: 45px;
 }
 
-h2 {
+h2,
+h3{
     color: #fff;
     font-size: 22px;
     text-align: center;
 }
 
-span {
+span,
+li{
     text-align: center;
     padding: 20px;
     font-weight: 500;
